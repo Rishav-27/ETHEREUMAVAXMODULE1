@@ -1,4 +1,6 @@
 ErrorHandling Contract
+
+
 This is a Solidity smart contract that demonstrates different error handling techniques using assert, revert, and require functions.
 
 License
@@ -23,5 +25,8 @@ Compile and deploy the ErrorHandling contract to a supported Ethereum network.
 Interact with the deployed contract by calling the available functions and providing the required parameters.
 License
 This project is licensed under the MIT License.
+
 Author
+
+
 Rishav Kumar
