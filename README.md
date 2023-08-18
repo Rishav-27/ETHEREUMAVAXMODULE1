@@ -1,10 +1,16 @@
 solidity Error Handling Assessment
+
+
 This repository is for the project assessment of the project of the 1st module of : solidity-avax-intermediate course of Metacrafters academy .
 
 Problem Statement
+
+
 write a smart contract that implements the require(), assert() and revert() statements.
 
 Description
+
+
 This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract has a three function that inputs the values, checks the condition using error handling statement and executes the function.
 
 The check_require function sets a value but requires the input value to be greater than 0 for this it uses require() for input validation, If the value is less than 0 than ot returns string value "Input is valid".
@@ -26,7 +32,10 @@ Once the code is compiled, you can deploy the contract by clicking on the "Deplo
 Once the contract is deployed, you can interact with it by calling any of the three function to set the value, check_require function to perform the require statement, check_assert function to perform the assert statement and check_revert function to perform the revert function. you just need to enter the values and then click on call.
 
 Author
+
+
 Rishav kumar
 
 License
+
 This project is licensed under the MIT License - see the LICENSE file for details
