@@ -4,22 +4,22 @@ pragma solidity ^0.8.17;
 contract SolidityErrorHandles {
    
     // uint public num = 0;
-    uint256 public totalSupply;
+    uint256 public billing_amt;
 
-    function minting(uint amount) public {
-        require(amount > 0, "Amount must be greater than zero.");
-        totalSupply += amount;
+    function minting(uint _unitreached) public {
+        require(unitreaches > 300, "Your Electricity bill is free.");
+        billing_amt = (unintreaches-300)*10;
     }
-    function modulous(uint _a, uint _b) public pure returns (uint){
-        if(_b<1){
+    function voter_age_check(uint age) public pure returns (uint){
+        if(age<18){
            
-            revert("The mdoulous number should be greater than zero");
+            revert("You are not eligible to vote");
             
         }
-        return _a%_b;
+        return 1;
        }
-        function square(uint _num1) public pure returns(uint256){
-        assert(_num1>0);// The number whose square is to be find must be greater than zero
-        return _num1*_num1;
+        function no_of_year_of_punishment(uint _crimes) public pure returns(uint256){
+        assert(_crimes>5);// you will be hanged to death,No mercy..
+        return _crimes*4;
     }
 }
