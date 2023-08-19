@@ -8,7 +8,7 @@ contract SolidityErrorHandles {
 
     function minting(uint reading) public {
         require(reading > 300, "Your Electricity bill is free.");
-        billing_amt = (reading-300)*10;
+        billing_amt= ((reading-300)*10);
     }
     function voter_age_check(uint age) public pure returns (uint){
         if(age<18){
@@ -18,8 +18,8 @@ contract SolidityErrorHandles {
         }
         return 1;
        }
-        function no_of_year_of_punishment(uint _crimes) public pure returns(uint256){
-        assert(_crimes>5);// you will be hanged to death,No mercy..
-        return _crimes*4;
+        function no_of_days_of_punishment(uint traffic_jump) public pure returns(uint256){
+        assert(traffic_jump>2);// you will only have to pay the penalty
+        return (traffic_jump*4);
         }
 }
